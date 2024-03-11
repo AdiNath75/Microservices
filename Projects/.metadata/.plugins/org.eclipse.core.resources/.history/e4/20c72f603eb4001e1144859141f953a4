@@ -1,0 +1,5 @@
+package com.nath.springboot.jpa.course;
+
+public class Course {
+
+}

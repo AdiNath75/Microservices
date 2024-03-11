@@ -1,0 +1,12 @@
+package com.nath.microservice.currencyexchangeservice;
+
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+public class CircuitBreakerController {
+	
+	public String sampleApi() {
+		r5eturn "Sample API";
+	}
+
+}

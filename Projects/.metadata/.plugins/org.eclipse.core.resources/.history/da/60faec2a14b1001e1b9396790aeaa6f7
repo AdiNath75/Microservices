@@ -1,0 +1,5 @@
+package com.nath.webservice.versioning;
+
+public class PersonV2 {
+
+}

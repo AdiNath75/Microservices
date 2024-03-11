@@ -1,0 +1,5 @@
+package com.nath.webservice.user;
+
+public class Role {
+
+}

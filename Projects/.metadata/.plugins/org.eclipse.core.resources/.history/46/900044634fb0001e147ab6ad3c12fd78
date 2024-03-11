@@ -1,0 +1,15 @@
+package com.nath.webservice.exception;
+
+import java.time.LocalDate;
+
+public class ErrorDetails {
+	//timestamp
+	private LocalDate timeStamp;
+	
+	//message
+	private String message;
+	
+	//details
+	private String details;
+
+}

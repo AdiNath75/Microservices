@@ -1,0 +1,7 @@
+package com.nath.springboot.jpa.course.jdbc;
+
+import org.springframework.boot.CommandLineRunner;
+
+public class CourseJdbcCommandLineRunner implements CommandLineRunner{
+
+}

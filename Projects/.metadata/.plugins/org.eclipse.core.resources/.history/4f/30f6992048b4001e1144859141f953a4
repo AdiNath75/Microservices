@@ -1,0 +1,18 @@
+package com.nath.springboot.jpa.course.jpa;
+
+import com.nath.springboot.jpa.course.Course;
+
+import jakarta.persistence.EntityManager;
+import jakarta.persistence.PersistenceContext;
+
+public class CourseJpaRepository {
+	
+	@PersistenceContext
+	private EntityManager entityManager;
+	
+	public void insert(Course course) {
+		entityManager.merge(course);
+	}
+	
+
+}

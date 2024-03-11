@@ -1,0 +1,5 @@
+package com.nath.webservice;
+
+public class ErrorDetails {
+
+}

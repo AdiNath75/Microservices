@@ -1,0 +1,14 @@
+package com.nath.webservice.versioning;
+
+import lombok.AllArgsConstructor;
+import lombok.Getter;
+import lombok.Setter;
+
+@Getter
+@Setter
+@AllArgsConstructor
+public class personV1 {
+
+	private String name;
+	
+}

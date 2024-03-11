@@ -1,0 +1,5 @@
+package com.nath.microservice.apigateway;
+
+public class ApiGatewayConfiguration {
+
+}

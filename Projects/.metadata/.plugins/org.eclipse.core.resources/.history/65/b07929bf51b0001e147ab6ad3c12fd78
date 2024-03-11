@@ -1,0 +1,5 @@
+package com.nath.webservice.exception;
+
+public class CustomizedResponseEntityExceptionHandler {
+
+}

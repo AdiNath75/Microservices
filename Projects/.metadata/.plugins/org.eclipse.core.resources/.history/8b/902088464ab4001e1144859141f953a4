@@ -1,0 +1,7 @@
+package com.nath.springboot.jpa.course.springdatajpa;
+
+public interface CourseSpringDataJpaRepository {
+	
+	
+
+}

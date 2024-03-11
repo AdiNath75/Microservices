@@ -1,0 +1,19 @@
+package com.nath.springboot.jpa.course.jpa;
+
+import org.springframework.beans.factory.annotation.Autowired;
+
+import com.nath.springboot.jpa.course.Course;
+
+import jakarta.persistence.EntityManager;
+
+public class CourseJpaRepository {
+	
+	@Autowired
+	private EntityManager entityManager;
+	
+	public void insert(Course course) {
+		entityManager.merge(course);
+	}
+	
+
+}

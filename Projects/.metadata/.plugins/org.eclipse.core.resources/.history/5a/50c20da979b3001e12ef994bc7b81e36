@@ -1,0 +1,16 @@
+package com.nath.webservice.filtering;
+
+import lombok.Getter;
+import lombok.ToString;
+
+@Getter
+@ToString
+public class SomeBean {
+	
+	private String field1;
+
+	private String field2;
+
+	private String field3;
+
+}
